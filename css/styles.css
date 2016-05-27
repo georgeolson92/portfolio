@@ -1,12 +1,13 @@
-.jumbotron {
-  background-color: #00b8e6;
-  color: white;
-}
-
-
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-color: #00b8e6;
+  color: white;
 }
 
 /* Projects */
@@ -59,6 +60,7 @@ body {
   margin-bottom: 5px;
 }
 
+/* Responsive Media Queries */
 
 @media only screen and (min-width: 600px){
   .img-hobbies {
