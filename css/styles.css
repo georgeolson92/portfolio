@@ -3,6 +3,12 @@
   color: white;
 }
 
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Projects */
 
 .project {
@@ -33,4 +39,21 @@
 
 .img-hobbies {
   margin-bottom: 20px;
+}
+
+.col-box {
+  border:1px solid #cccccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+.col-box h2, .col-box h3 {
+  margin-top: 0px;
+  color: #003d99;
+  margin-bottom: 20px;
+}
+
+.col-box .glyphicon {
+  margin-bottom: 5px;
 }
