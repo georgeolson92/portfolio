@@ -1,15 +1,36 @@
-/* Nav Bar */
-
-.navbar-brand {
-  font-weight: bold;
+.jumbotron {
+  background-color: #00b8e6;
+  color: white;
 }
 
 /* Projects */
 
 .project {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .project h3{
   margin-top: 4px;
+}
+
+.project img {
+  margin: 0px auto;
+  margin-bottom: 15px;
+}
+
+/* Glyph Icons */
+
+.column-title {
+  text-align: center;
+}
+
+.glyphicon {
+  font-size: 3em;
+  color: #003d99;
+}
+
+/* Hobbies */
+
+.img-hobbies {
+  margin-bottom: 20px;
 }
