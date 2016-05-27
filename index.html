@@ -13,11 +13,43 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,900,300,700,300italic,400italic' rel='stylesheet' type='text/css'>
 
   </head>
+
+  <div class="modal fade" id="textModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Drop Me A Line!</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <fieldset class="form-group">
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter full name">
+            </fieldset>
+            <fieldset class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            </fieldset>
+            <fieldset class="form-group">
+              <input type="tel" class="form-control" id="exampleInputTel1" placeholder="Enter phone #">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="exampleTextarea">Your Message:</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </fieldset>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <body>
     <div class="jumbotron">
       <div class="container">
         <h1>GEORGE OLSON</h1>
-        <p class="lead">Check out my <em>snazzy</em> portfolio.</p>
+        <p class="lead">Check out my <em>snazzy</em> portfolio.
+          <a class="btn btn-success" data-toggle="modal" href="#textModal">And then contact me!</a>
+        </p>
       </div>
     </div>
     <div class="container">
@@ -98,7 +130,7 @@
                 <b class="glyphicon glyphicon-education"></b>
                 <h3 class="text-center">Education</h3>
               </div>
-              <p>I earned my Bachelor of Arts degree in Digital Technology & Culture at WSU Vancouver in 2014. I specialized in design and multimedia authoring. I also minored in Spanish.</p>
+              <p>I earned my <strong>Bachelor of Arts degree in Digital Technology & Culture</strong> at <a href="http://www.vancouver.wsu.edu">WSU Vancouver</a> in 2014. I specialized in design and multimedia authoring. I also minored in Spanish.</p>
             </div>
 
             <div class="col-box">
@@ -121,8 +153,8 @@
               </div>
               <h4>Education Goals:</h4>
               <ol>
-                <li>Learn how to make interactive applications and be able to understand languages like PHP, Ruby, C#, and Javascript & JQuery and not look at these kinds of files with complete bewilderment.</li>
-                <li>Be able to understand these languages, be able to read files with these languages and know what exactly the code is doing, and then be able to write code in these kinds of languages.</li>
+                <li>Learn how to make interactive applications in languages like PHP, Ruby, C#, and Javascript & JQuery.</li>
+                <li>Be able to understand these languages, be able to read code written these languages to know what exactly the code is doing, and then be able to write code in these kinds of languages.</li>
                 <li>Teach myself to be constantly up-to-date in skills in order to compete with other programmers.</li>
               </ol>
             </div>
