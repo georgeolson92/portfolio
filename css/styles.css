@@ -1,0 +1,42 @@
+/* Nav Bar */
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/*Columns below Jumbotron*/
+
+.column-head {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.column-head h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.column p{
+  padding-top: 10px;
+}
+
+.glyphicon {
+    font-size:3em;
+}
+
+.column-code .column-head{
+  background-color: blue;
+  color: white;
+}
+
+.column-other .column-head{
+  background-color: yellow;
+  color: white;
+}
+
+.column-learn .column-head{
+  background-color: red;
+  color: white;
+
+}
