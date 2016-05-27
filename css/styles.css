@@ -39,6 +39,7 @@ body {
 
 .img-hobbies {
   margin-bottom: 20px;
+  max-width: 250px;
 }
 
 .col-box {
@@ -56,4 +57,19 @@ body {
 
 .col-box .glyphicon {
   margin-bottom: 5px;
+}
+
+
+@media only screen and (min-width: 600px){
+  .img-hobbies {
+    margin-right: 20px;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .img-hobbies {
+    margin: 0px auto;
+    margin-bottom: 20px;
+  }
 }
